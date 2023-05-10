@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS EXCHANGE_VALUE;  
+CREATE TABLE EXCHANGE_VALUE (  
+id INT PRIMARY KEY,  
+currency_from VARCHAR(3) NOT NULL,  
+currency_to VARCHAR(3) NOT NULL,  
+conversion_multiple INT NOT NULL,
+port INT
+);  
